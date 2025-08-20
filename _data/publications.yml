@@ -4,7 +4,7 @@
   description: "The paper introduces a self-distillation method that uses model uncertainty to enhance polyp segmentation, guiding the network to produce more reliable and consistent predictions."
   project_page: ""
   github: "TugberkErol/DCSD"
-  arxiv: 2507.10490
+  arxiv: "2507.10490"
   image: "photoshape.jpg"
   authors:
     - tugberk
