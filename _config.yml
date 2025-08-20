@@ -28,11 +28,10 @@ description: |
   My current research interests include knowledge distillation and advanced segmentation techniques for medical imaging.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KeunhongP
+
 github_username: TugberkErol
-google_scholar: HVZb-5oAAAAJ
-google_analytics: G-MFWSBLRKG0
+google_scholar: https://scholar.google.com/citations?user=mWXIqF8AAAAJ&hl=tr&oi=ao
+
 
 # Build settings
 theme: minima
