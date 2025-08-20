@@ -1,13 +1,16 @@
 tugberk:
-  first_name: Tugberk
-  last_name: Erol
-  website: https://tugberkerol.github.io/
+  first_name: "Tugberk"
+  last_name: "Erol"
+  website: "https://tugberkerol.github.io/"
+
 tuba:
-  first_name: Tuba
-  last_name: Caglikantar
-  website: https://avesis.aybu.edu.tr/12303
+  first_name: "Tuba"
+  last_name: "Caglikantar"
+  website: "https://avesis.aybu.edu.tr/12303"
+
 duygu:
-  first_name: Duygu
-  last_name: Sarikaya
-  website: https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya
+  first_name: "Duygu"
+  last_name: "Sarikaya"
+  website: "https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya"
+
 
