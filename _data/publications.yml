@@ -1,6 +1,6 @@
-id: photoshape
-  title: "PhotoShape: Photorealistic Materials for Large-Scale Shape Collections"
-  venue: SIGGRAPH Asia, 2018
+id: DCSD
+  title: "The Power of Certainty: How Confident Models Lead to Better Segmentation"
+  venue: arXiv
   description: "The paper introduces a self-distillation method that uses model uncertainty to enhance polyp segmentation, guiding the network to produce more reliable and consistent predictions."
   project_page: ""
   github: TugberkErol
