@@ -30,7 +30,7 @@ description: |
 baseurl: "" # the subpath of your site, e.g. /blog
 
 github_username: TugberkErol
-google_scholar: https://scholar.google.com/citations?user=mWXIqF8AAAAJ&hl=tr&oi=ao
+google_scholar: mWXIqF8AAAAJ
 
 
 # Build settings
