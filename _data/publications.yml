@@ -1,14 +1,15 @@
 id: DCSD
-  title: "The Power of Certainty: How Confident Models Lead to Better Segmentation"
-  venue: arXiv
-  description: "The paper introduces a self-distillation method that uses model uncertainty to enhance polyp segmentation, guiding the network to produce more reliable and consistent predictions."
-  project_page: ""
-  github: TugberkErol
-  arxiv: 2507.10490
-  image: photoshape.jpg
-  authors:
-    - Tugberk Erol
-    - Tuba Caglikantar
-    - Duygu Sarikaya
-  awards:
-    - "Journal Cover"
+title: "The Power of Certainty: How Confident Models Lead to Better Segmentation"
+venue: arXiv
+description: "The paper introduces a self-distillation method that uses model uncertainty to enhance polyp segmentation, guiding the network to produce more reliable and consistent predictions."
+project_page: ""
+github: TugberkErol
+arxiv: 2507.10490
+image: photoshape.jpg
+authors:
+  - Tugberk Erol
+  - Tuba Caglikantar
+  - Duygu Sarikaya
+awards:
+  - "Journal Cover"
+
