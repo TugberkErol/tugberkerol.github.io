@@ -1,7 +1,10 @@
--date: Sep 2025
-  description: We will present our work on PRISM: Past-Regularized Iterative Self-Distillation with Momentum for Polyp Segmentation at the AE-CAI Workshop, part of the MICCAI 2025 Workshops in Daejeon, South Korea.
-- date: Sep 2024 
-  description: We present our work [_PlutoNet: An Efficient Polyp Segmentation Network with Modified Partial Decoder and Decoder Consistency Training_](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl2.12105) at the AE-CAI Workshop, part of the MICCAI 2024 Workshops in Marrakesh, Morocco.
-- date: Jun 2022 
-  description: We present our work [_An Efficient Polyp Segmentation Network_](https://ieeexplore.ieee.org/document/9864944) at the 2022 Signal Processing and Communications Applications Conference.
+- date: Sep 2025
+  description: "We will present our work on PRISM: Past-Regularized Iterative Self-Distillation with Momentum for Polyp Segmentation at the AE-CAI Workshop, part of the MICCAI 2025 Workshops in Daejeon, South Korea."
+
+- date: Sep 2024
+  description: "We present our work [_PlutoNet: An Efficient Polyp Segmentation Network with Modified Partial Decoder and Decoder Consistency Training_](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl2.12105) at the AE-CAI Workshop, part of the MICCAI 2024 Workshops in Marrakesh, Morocco."
+
+- date: Jun 2022
+  description: "We present our work [_An Efficient Polyp Segmentation Network_](https://ieeexplore.ieee.org/document/9864944) at the 2022 Signal Processing and Communications Applications Conference."
+
 
