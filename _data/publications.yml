@@ -17,7 +17,7 @@
   venue: Healthcare Technology Letters 
   description: "PlutoNet is a lightweight polyp segmentation model that uses a novel decoder consistency training with a shared encoder, modified partial decoder, and auxiliary decoder to efficiently capture multi-scale and semantic features, achieving superior performance with far fewer parameters than state-of-the-art models."
   project_page: ""
-  github: "TugberkErol/DCSD"
+  github: "TugberkErol/PlutoNet"
   arxiv: "2204.03652"
   image: "photoshape.jpg"
   authors:
