@@ -18,25 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Keunhong Park
-name: Keunhong Park
-position: Research Scientist
-email: gsmv8rlm8@mozmail.com
+title: Tugberk Erol
+name: Tugberk Erol
+position: PhD Candidate
+email: tugberk.erol@gazi.edu.tr
 description: |
-  I am a researcher in 3D computer vision and generative AI. I am a founding member at [World Labs](https://www.worldlabs.ai/blog) where we are expanding the frontier of spatial intelligence.
-  I was previously a research scientist at [Google](https://ai.google/research/) where I built technology to [generate 3D assets](https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/) for products on Google Search.
+I am a PhD candidate in Computer Engineering at Gazi University, exploring the frontiers of medical image segmentation and self-distillation. My work focuses on improving model performance and uncertainty estimation in clinical applications.
+I am passionate about pushing deep learning for healthcare further, developing methods that make AI-assisted diagnosis more reliable and accurate.
+My current research interests include knowledge distillation and advanced segmentation techniques for medical imaging.
+github_username: TugberkErol
+google_scholar: https://scholar.google.com/citations?user=mWXIqF8AAAAJ&hl=tr&oi=ao
 
-  I received my Ph.D from the [University of Washington](https://grail.cs.washington.edu/) in 2021 where I was advised by
-  [Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
-  [Steve Seitz](https://homes.cs.washington.edu/~seitz/).
-
-  My current research interests are primarily in 3D generative AI and diffusion models.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KeunhongP
-github_username: keunhong
-google_scholar: HVZb-5oAAAAJ
-google_analytics: G-MFWSBLRKG0
 
 # Build settings
 theme: minima
