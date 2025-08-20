@@ -108,17 +108,6 @@ layout: null
       {% for publication in site.data.publications %}
       <div class="publication-block columns">
 
-        <div class="column is-2">
-          <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
-            {% if publication.image_mouseover contains "mp4" %}
-            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
-              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            {% endif %}
-            <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
-          </div>
-        </div>
 
         <div class="column">
           <div class="content">
@@ -146,10 +135,7 @@ layout: null
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
             <div class="publication-links buttons field has-addons">
-              <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
-                <span class="icon"><i class="fas fa-globe-asia"></i></span>
-                <span>Project Page</span>
-              </a>
+       
               <a class="external-link button is-small is-ghost"
                 href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
