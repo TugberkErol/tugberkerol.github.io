@@ -19,17 +19,16 @@ PlutoNet is a lightweight polyp segmentation network designed to accurately dete
 - Extensive evaluation on Kvasir-SEG, ClinicDB, ETIS, EndoScene, and CVC-ColonDB datasets  
 - Outperforms state-of-the-art models with fewer parameters, especially on unseen datasets  
 - Ablation studies demonstrate effectiveness of consistency training  
- 
 
 ## Contributions
 1. Novel **decoder consistency training** between two specialized decoders to improve segmentation representations.  
 2. PlutoNet architecture achieves high accuracy with far fewer parameters than existing models.  
 3. Comprehensive evaluation shows superior generalization to unseen datasets.  
-4. Ablation studies confirm the effectiveness of the proposed consistency training.
+4. Ablation studies confirm the effectiveness of the proposed consistency training.  
 
 ## Code & Repo
 - GitHub: [TugberkErol/PlutoNet](https://github.com/TugberkErol/PlutoNet)  
 
 ## Publication
-- arXiv: [2204.03652v4](https://arxiv.org/abs/2204.03652)
-- Paper: (https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl2.12105) 
+- arXiv: [2204.03652v4](https://arxiv.org/abs/2204.03652)  
+- Journal: [IET Health Technology Letters](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl2.12105)  
