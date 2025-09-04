@@ -1,23 +1,32 @@
 ---
 layout: default
-title: "Power of Certainty"
+title: "The Power of Certainty"
 permalink: /projects/power-of-certainty/
-description: "Certainty-weighted loss and BN-statistics confidence for reliable medical segmentation."
+description: "Confidence-based self-distillation approach for improved polyp segmentation."
 ---
 
-# Power of Certainty
+# The Power of Certainty
 
 **Abstract:**  
-This project introduces a self-distillation method that uses model uncertainty to enhance polyp segmentation. It guides the network to produce more reliable and consistent predictions by leveraging certainty-weighted loss and BN-statistics-based confidence.  
+This project introduces a confidence-based self-distillation approach for polyp segmentation. The method stores predictions from previous training iterations and uses them to guide the network toward more consistent and reliable predictions. Unlike many distillation methods, this approach does not require extra computation or memory during inference, making it efficient for deployment. By leveraging only previously stored outputs, the model achieves better segmentation performance compared to state-of-the-art methods while maintaining computational efficiency.
 
-## Key Highlights
-- Certainty-weighted loss  
-- BN-statistics confidence  
-- Test-time filtering  
-- Self-distillation aligning mid- and deep-layer representations
+---
 
-## Code & Repo
-- GitHub: [TugberkErol/DCSD](https://github.com/TugberkErol/DCSD)  
+## Key Features
+- Confidence-guided self-distillation  
+- No extra computation or memory required at test time  
+- Improves segmentation consistency and reliability  
+- Compatible with standard CNN and Transformer architectures
+
+---
+
+
+## Code & Repository
+- GitHub: [TugberkErol/DCSD](https://github.com/TugberkErol/DCSD)
+
+---
 
 ## Publication
 - arXiv: [2507.10490](https://arxiv.org/abs/2507.10490)
+
+
