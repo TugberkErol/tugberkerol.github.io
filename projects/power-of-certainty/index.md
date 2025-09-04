@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The Power of Certainty: How Confident Models Lead to Better Segmentation"
-permalink: /projects/thepower-of-certainty/
+permalink: /projects/power-of-certainty/
 description: "Dynamic Confidence-Based Self-Distillation (DCSD) for polyp segmentation in medical images. Outperforms state-of-the-art models using confidence-weighted self-distillation."
 ---
 
