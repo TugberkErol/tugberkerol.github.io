@@ -41,11 +41,20 @@ Deep learning models have shown strong performance in automatic polyp detection 
 - Encourages model to reinforce only confident past knowledge.
 
 ### Loss Formulation
+
+The DCSD loss is defined as:
+
 \[
 \mathcal{L}_{DCSD} = \frac{1}{n} \sum_{i=1}^{n} \text{Dice}(p^{t-1}_i, y^{t-1}_i) \cdot \text{MSE}(p^t_i, p^{t-1}_i)
 \]
 
+Where:  
+- \(p^t_i\) is the prediction at the current iteration.  
+- \(p^{t-1}_i\) is the prediction from the previous iteration.  
+- \(y^{t-1}_i\) is the ground truth.  
+- Dice and MSE denote Dice loss and Mean Squared Error, respectively.
 
+---
 
 ## Conclusion
 
@@ -53,6 +62,3 @@ DCSD is a simple yet effective confidence-weighted self-distillation approach th
 
 **Contact:** tugberk.erol@gazi.edu.tr  
 **arXiv:** [arXiv:2507.10490v1](https://arxiv.org/abs/2507.10490)  
-
----
-
