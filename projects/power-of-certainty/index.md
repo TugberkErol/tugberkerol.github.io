@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: null
 title: "The Power of Certainty"
 permalink: /projects/power-of-certainty/
 description: "Confidence-based self-distillation approach for improved polyp segmentation."
