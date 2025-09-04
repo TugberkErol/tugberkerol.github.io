@@ -5,7 +5,7 @@ permalink: /projects/thepower-of-certainty/
 description: "Dynamic Confidence-Based Self-Distillation (DCSD) for polyp segmentation in medical images. Outperforms state-of-the-art models using confidence-weighted self-distillation."
 ---
 
-# ThePower of Certainty: How Confident Models Lead to Better Segmentation
+# The Power of Certainty: How Confident Models Lead to Better Segmentation
 
 **Authors:** Tugberk Erol, Tuba Caglikantar, Duygu Sarikaya  
 **Affiliations:**  
@@ -40,21 +40,6 @@ Deep learning models have shown strong performance in automatic polyp detection 
 - Uses Dice coefficient as a confidence score to weight MSE loss between iterations.
 - Encourages model to reinforce only confident past knowledge.
 
-### Loss Formulation
-
-The DCSD loss is defined as:
-
-\[
-\mathcal{L}_{DCSD} = \frac{1}{n} \sum_{i=1}^{n} \text{Dice}(p^{t-1}_i, y^{t-1}_i) \cdot \text{MSE}(p^t_i, p^{t-1}_i)
-\]
-
-Where:  
-- \(p^t_i\) is the prediction at the current iteration.  
-- \(p^{t-1}_i\) is the prediction from the previous iteration.  
-- \(y^{t-1}_i\) is the ground truth.  
-- Dice and MSE denote Dice loss and Mean Squared Error, respectively.
-
----
 
 ## Conclusion
 
